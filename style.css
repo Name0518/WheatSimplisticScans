@@ -1,0 +1,125 @@
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+    font-family: 'MiSans';
+    src: url('/MiSansLatin-Thin.woff') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  background-color: black;
+}
+
+p {
+  size: 24px;
+}
+
+.navbarlist {
+  display: inline-block;
+  padding: 20px;
+}
+
+li:hover {
+  color: #527dff;
+  cursor: grab;
+}
+
+ul {
+  text-align: center;
+  background-color: black;
+  opacity: 0.5;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar {
+  padding-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  transition: 10s;
+  color: white;
+  padding-top:10%;
+  font-family:MiSans;
+  font-size: 50px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+  font-family:MiSans;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #527dff;
+  cursor: grab;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+li {
+  color: white;
+  font-family:MiSans;
+}
+
+.homepage {
+  background-image: url("dark-black-background-design-with-stripes_1017-38064.png");
+  padding-bottom: 1000px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+p {
+  font-family:MiSans;
+  color:white;
+  text-align: center;
+}
+.gallery{
+  width:300px;
+  height:300px;
+  display:block;
+  margin-left:10%;
+}
+.sponsordescription{
+  padding-top:20px;
+  display:block;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  width:70%;
+}
+
+.addtocart{
+}
+
+form{
+  color:white;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:MiSans;
+}
+.login{
+ display:inline;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.expandedimage{
+  width:60%
+}
